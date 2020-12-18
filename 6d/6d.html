@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="6d.css">
+</head>
+
+<body>
+    <form onsubmit="return false;">
+        Title #1:
+        <label for="input_1"></label><input type="text" id="input_1" required /> <br>
+
+        Title #2:
+
+        <label for="input_2"></label><input type="text" id="input_2" required /> <br>
+
+        Title #3:
+
+        <label for="input_3"></label><input type="text" id="input_3" required /><br>
+
+        <button onclick="addRow()">Add</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Title #1</th>
+                <th>Title #2</th>
+                <th>Title #3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>text1</td>
+                <td>text2</td>
+                <td>text3</td>
+            </tr>
+            <tr>
+                <td>another text1</td>
+                <td>another text2</td>
+                <td>another text3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="6d.js"></script>
+</body>
+
+</html>
